@@ -1,6 +1,6 @@
 {
   "name": "postcss-selector-stats",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "This postcss plugin collect statical information about every selector. The first implementation adds information about the place and the origin source file.",
   "license": "MIT",
   "repository": "florianuphoff/postcss-selector-stats",
@@ -11,7 +11,6 @@
     "node": ">= 12.5.0"
   },
   "files": [
-    "lib/",
     "index.js"
   ],
   "keywords": [
