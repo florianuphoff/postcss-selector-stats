@@ -1,0 +1,38 @@
+{
+  "name": "postcss-selector-stats",
+  "version": "0.0.1",
+  "description": "This postcss plugin collect statical information about every selector. The first implementation adds information about the place and the origin source file.",
+  "license": "MIT",
+  "repository": "florianuphoff/postcss-selector-stats",
+  "author": "Florian Uphoff <florianuphoff@mailbox.org>",
+  "homepage": "https://github.com/florianuphoff/postcss-selector-stats",
+  "main": "index.js",
+  "engines": {
+    "node": ">= 12.5.0"
+  },
+  "files": [
+    "lib/",
+    "index.js"
+  ],
+  "keywords": [
+    "analysis",
+    "css",
+    "postcss",
+    "lint",
+    "linter",
+    "plugin",
+    "postcss-plugin"
+  ],
+  "peerDependencies": {
+    "postcss": "^7.0.17"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "gulp": "^4.0.2",
+    "gulp-mocha": "^6.0.0",
+    "postcss": "^7.0.17"
+  },
+  "scripts": {
+    "test": "gulp"
+  }
+}

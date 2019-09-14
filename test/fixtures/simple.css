@@ -1,0 +1,26 @@
+.d1{
+  margin-top: 1px;
+  margin-right: 2px;
+  margin-bottom: 1px;
+  margin-left: 2px;
+}
+
+.d2 {
+  margin: 1px 2px;
+}
+
+.d3 {
+ display: flex;
+ justify-content: center
+}
+
+.duplication-type-4 {
+  border: 1px solid #333333;
+  border-radius: 5px;
+}
+
+@media (min-width: 600px) {
+  .topmenu li { 
+      width: 32%;  
+  }
+}
