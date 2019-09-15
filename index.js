@@ -2,7 +2,7 @@
 
 const postcss = require('postcss')
 
-module.exports = postcss.plugin('postcss-code-duplication', opts => {
+module.exports = postcss.plugin('postcss-selector-stats', opts => {
   const reportStartingLine = opts.reportStartingLine || true
   const reportOriginSource = opts.reportOriginSource || true
 
